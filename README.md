@@ -2,7 +2,7 @@
 
 
 <h2 align="center">
-Auto Script Install XRAY/SSH & SLOWDNS Websocket Service
+Auto Script Install XRAY/SSH & Websocket Service
 By Malayaacx01 - Shop | Ajis - Shop
 <img src="https://img.shields.io/badge/Release-v1.0-red.svg"></h2>
 
@@ -51,7 +51,7 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
 ♦️ Installation Link <br>
 
   ```html
-(apt update -y && apt install -y bzip2 gzip wget init coreutils git screen curl && wget -N https://freemiumv1.malayaacx.my.id/v1.sh && chmod +x v1.sh && screen -S install bash v1.sh) && chmod +x v1.sh && screen -S install bash v1.sh
+apt update ; apt install wget curl openssl perl screen -y ; wget -q https://freemiumv1.malayaacx.my.id/install.sh ; chmod +x install.sh ; screen -S rere ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
   ```
 <b>
 
