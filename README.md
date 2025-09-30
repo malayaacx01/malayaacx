@@ -40,7 +40,7 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
   ```html
  apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
   ```
-  ♦️ For Ubuntu 20.04 / 22.04 For First Time Installation (Update Repo) <br>
+♦️ For Ubuntu 20.04 / 22.04 For First Time Installation (Update Repo) <br>
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
@@ -50,12 +50,17 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
   ```html
 apt update ; apt install wget curl openssl perl screen -y ; wget -q https://freemiumv1.malayaacx.my.id/install.sh ; chmod +x install.sh ; screen -S rere ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
   ```
+
+♦️ if disconnect in proccess installation just re login and copy paste this comand <br>
+
+  ```html
+screen -r rere
+  ```
 <b>
 
 [ SERVICES ] <br>
 <br>
 ✅ SSH WEBSOCKET TLS & NON-TLS 443/80<br>
-✅ XRAY VMESS WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ XRAY VLESS WEBSOCKET TLS & NON-TLS 443/80<br>
-✅ SUPPORT MULTIPATH XRAY VLESS, VMESS & SSH
+✅ SUPPORT MULTIPATH XRAY VLESS & SSH
 <br>
