@@ -37,12 +37,12 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
 3. Edge Certificates > Disable Always Use HTTPS (off)
 
 <br>
-♦️ For Debian 9 / 10 / 11 For First Time Installation (Update Repo) <br>
+♦️ For Debian 11 / 12 For First Time Installation (Update Repo) <br>
  
   ```html
  apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
   ```
-  ♦️ For Ubuntu 18.04 / 20.04 For First Time Installation (Update Repo) <br>
+  ♦️ For Ubuntu 20.04 / 22.04 For First Time Installation (Update Repo) <br>
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
@@ -57,9 +57,7 @@ apt update ; apt install wget curl openssl perl screen -y ; wget -q https://free
 [ SERVICES ] <br>
 <br>
 ✅ SSH WEBSOCKET TLS & NON-TLS 443/80<br>
-✅ SSH WEBSOCKET SLOWDNS 53/5300<br>
 ✅ XRAY VMESS WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ XRAY VLESS WEBSOCKET TLS & NON-TLS 443/80<br>
-✅ XRAY TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ SUPPORT MULTIPATH XRAY VLESS, VMESS & SSH
 <br>
